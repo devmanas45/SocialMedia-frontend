@@ -13,9 +13,7 @@ const Sidebar=({selectedTab,setSelectedTab})=>{
                     Home
                     </a>
                 </li>
-                <li onClick={()=>{
-                    setSelectedTab("CreatePost")
-                }}>
+                <li onClick={()=>{setSelectedTab("CreatePost")}}>
                     <a href="#" className={`nav-link text-white ${selectedTab==='CreatePost' && 'active'}`}>
                         <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#speedometer2"></use></svg>
                         Create Post
@@ -26,8 +24,8 @@ const Sidebar=({selectedTab,setSelectedTab})=>{
             <hr/>
             <div className="dropdown">
                 <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2"/>
-                    <strong>mdo</strong>
+                    <img src="mkm.png" alt="" width="32" height="32" className="rounded-circle me-2"/>
+                    <strong>Manas</strong>
                 </a>
                 <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
                     <li><a className="dropdown-item" href="#">New project...</a></li>
